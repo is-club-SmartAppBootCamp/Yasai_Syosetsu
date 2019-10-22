@@ -92,6 +92,10 @@ class ItemListActivity : AppCompatActivity() {
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
             val view = LayoutInflater.from(parent.context)
                 .inflate(R.layout.item_list_content, parent, false)
+
+            val sr = SyosetsuReader()
+            sr.urlRequest()
+
             return ViewHolder(view)
         }
 
