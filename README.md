@@ -1,0 +1,2 @@
+# Yasai_Syosetsu
+narou
