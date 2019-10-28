@@ -52,6 +52,10 @@ class ItemListActivity : AppCompatActivity() {
         }
 
         setupRecyclerView(item_list)
+
+        val sr = SyosetsuReader()
+        sr.urlRequest()
+
     }
 
     private fun setupRecyclerView(recyclerView: RecyclerView) {
